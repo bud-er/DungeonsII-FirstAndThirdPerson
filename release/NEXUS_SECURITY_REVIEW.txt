@@ -1,0 +1,69 @@
+NEXUS SECURITY REVIEW NOTES - NOT A CLEARANCE STATEMENT
+
+OBSERVED IN THE USER'S SCREENSHOTS (2026-10-04)
+Nexus quarantined the main upload, displayed as version "0.9". Its notice lists
+executable files, internal/VirusTotal flags and nested archives as possible
+causes, and asks the uploader to email support@nexusmods.com for review with
+a source-code link and build steps where relevant. The notice does not
+identify which check caused quarantine.
+
+VirusTotal's report shows 0/57 for the beta.4 ZIP. Its Relations tab shows
+1/70 for this bundled file:
+  DungeonsFirstPerson/runtime/Lib/site-packages/pip/_vendor/distlib/w32.exe
+  SHA256 47872cc77f8e18cf642f868f23340a468e537e64521d9a3a416c8b84384d064b
+The screenshot does not show which vendor flagged that file or its verdict.
+
+Beta.4 ZIP SHA256:
+  0e8a1e3c67f3851fef5849dc8fdb680548c4d084a026c48a27d37144610af1da
+
+LOCAL PROVENANCE CHECK
+The beta.4 w32.exe bytes exactly match the member of that name in the pinned
+official Python 3.14.0 AMD64 archive. This file belongs to pip's vendored
+distlib script-launcher tools. The mod does not execute it or install packages.
+
+Official archive:
+  https://www.python.org/ftp/python/3.14.0/python-3.14.0-amd64.zip
+Official archive SHA256:
+  80387540694fe8e598afd5c6a18975081b0ccc6b57f752ed22216498f4205ce0
+
+Beta.4 also included this nested wheel, unused by the application:
+  runtime/Lib/ensurepip/_bundled/pip-25.2-py3-none-any.whl
+Nexus's guidance lists nested archives as a reason for quarantine. Either
+that packaging or the executable/scan checks may be relevant; only Nexus can
+confirm the reason for this upload. Provenance and a low detection count do
+not establish an antivirus vendor's false-positive ruling.
+
+BETA.5 PACKAGING CHANGE
+The application uses only Python's standard library and Windows APIs.
+Omit the complete unused installer components, not just the flagged executable:
+  Lib/site-packages/pip/
+  Lib/site-packages/pip-25.2.dist-info/
+  Lib/ensurepip/
+RUNTIME_OMISSIONS.json records the omitted paths and their original SHA256s.
+All retained Python/Tcl/Tk files keep their original bytes. No executable is
+obfuscated, renamed or patched, and no security settings are changed.
+Python interpreters/DLLs are still present and may need Nexus manual review.
+
+The mod reads and writes validated game data for its camera/control features.
+It does not inject a DLL or install software in the game folder. Dormant
+experimental native patches remain disabled. It has no automatic downloads;
+Patreon buttons open the system browser only on a user click.
+
+REVIEW MATERIALS TO PROVIDE
+1. The actual mod-page and file links, plus the displayed quarantine notice.
+2. A publicly accessible link to the matching source code and release/BUILDING.md.
+   The matching Source.zip contains source, tests, licenses and build instructions.
+   Publish/share that code deliberately; do not link a private filesystem path.
+3. The replacement main ZIP's exact filename and SHA256 from its SHA256.txt.
+4. The matching Defender-scan.json receipt. It records only local scan results
+   for those exact files at that time, not Nexus approval or universal safety.
+5. This provenance explanation and RUNTIME_OMISSIONS.json if requested.
+
+Ask support to review the file and confirm the specific quarantine reason.
+Do not repeatedly repackage or rename it to try to avoid moderation. The
+developer has prepared these notes only; no email, upload or approval occurred.
+
+OFFICIAL REFERENCES
+https://help.nexusmods.com/article/117-why-has-my-mod-been-quarantined
+https://help.nexusmods.com/article/128-anti-virus-false-positives
+https://github.com/pypa/distlib/blob/master/distlib/scripts.py

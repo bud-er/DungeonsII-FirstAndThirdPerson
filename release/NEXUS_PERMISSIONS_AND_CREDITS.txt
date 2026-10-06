@@ -1,0 +1,87 @@
+NEXUS PERMISSIONS FORM - Dungeons II — First & Third Person
+
+THIRD-PARTY CONTENT
+Choose the Yes option that says third-party content is included with permission
+or under its licenses. The exact dropdown wording may vary. Do not choose
+"No (all content is mine)": the portable download includes Python, Tcl/Tk,
+OpenSSL and other components from the official Python distribution. Their
+included licenses supply the relevant redistribution terms.
+
+CREDITS - COPY THIS BLOCK
+
+Dungeons II — First & Third Person by BuDeR.
+Formerly Dungeons First Person.
+Thanks to everyone testing the public beta and reporting issues.
+
+Python: Python Software Foundation and contributors.
+Tcl/Tk: Tcl/Tk contributors.
+OpenSSL: The OpenSSL Project Authors and contributors.
+Other bundled runtime components are credited in their included license notices.
+
+See THIRD_PARTY_NOTICES.txt, licenses/ and runtime/LICENSE.txt in the download
+for the third-party license texts. The runtime comes from official Python;
+unused package-installation tooling is omitted, and retained files are unchanged.
+
+This is an unofficial community mod, not affiliated with or endorsed by Mojang,
+Microsoft, the game developers or the Python Software Foundation.
+
+END CREDITS BLOCK
+
+PERMISSION SETTINGS
+Select "Write your own (custom)" to match the MIT license already shipped
+with the mod. The recommended preset in the screenshot forbids reuploads and
+commercial use and requires permission for modification; that contradicts the
+existing MIT grant. This guide does not change the project's license.
+
+CUSTOM PERMISSIONS - COPY THIS BLOCK
+
+The original Dungeons II — First & Third Person mod code is licensed under the MIT License
+(Copyright (c) 2026 Dungeons First Person contributors). Use, copying,
+modification, redistribution and commercial use are permitted subject to the
+MIT License, including preservation of its copyright and license notice.
+The complete license is included as LICENSE.txt in the download and LICENSE
+in the matching source release.
+
+Bundled third-party runtime components remain under their own licenses; the
+mod's MIT license does not replace those terms. Preserve their required
+notices when redistributing them. See THIRD_PARTY_NOTICES.txt and licenses/.
+No rights to Minecraft names, branding or game assets are granted by this
+mod's license. Nexus Mods platform rules still apply.
+
+END CUSTOM PERMISSIONS BLOCK
+
+UPLOAD DETAILS
+- Main filename: DungeonsII-FirstAndThirdPerson-0.3.0-preview.11-Windows-x64.zip
+- Version field: 0.3.0-preview.11
+- Suggested display name: Dungeons II — First & Third Person - Preview 11
+- Manual download; extract the entire folder. Python is included.
+- Keep the source ZIP a separate optional file, not a ZIP inside the main ZIP.
+- Use the exact version above so bug reports match BUILD.json. The earlier
+  screenshot's "0.9" was a page label, not the version of the beta.4 binary.
+
+MAIN FILE DESCRIPTION - COPY THIS BLOCK
+
+Extract the entire ZIP and open Start Dungeons II Camera Mod.cmd. Launch the
+game normally, enter camp or a level, then click Start helper and press F6 to
+enable first person. Stop an older helper with F10 before starting this version.
+Python is included; no game files need replacing.
+
+Preview11 updates the name and documentation; gameplay is unchanged from
+Preview10. F3 / triple-click L3 switches first/third while the custom camera is
+active. Supported profiles: Steam build 25647713 and Xbox/Minecraft Launcher/
+Microsoft Store GDK 1.1.1.0. Local Xbox walking, arm turning, armor and menu tests
+passed; broader play testing remains open. Epic and future builds are unverified.
+
+If the camera gets stuck, F5 restores the view and F10 stops the helper. If the
+game itself crashes, reopen the game. Please report recurring problems with
+your mod version, controls, store and solo/co-op role. This beta does not
+guarantee that restarting only the helper will fix every error.
+
+END FILE DESCRIPTION BLOCK
+
+REFERENCES
+Project license: LICENSE in the matching source archive.
+MIT license: https://opensource.org/license/mit
+Python licenses: https://docs.python.org/3/license.html
+Nexus permissions guidance:
+https://help.nexusmods.com/article/28-file-submission-guidelines

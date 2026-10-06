@@ -1,0 +1,89 @@
+SUGGESTED TITLE
+Dungeons II — First & Third Person
+
+SHORT DESCRIPTION
+Play Minecraft Dungeons II in first person or a customizable shoulder view. Mouse and controller support, manual shoulder switching, optional sprint, and individual armor visibility. Free Windows x64 preview.
+
+FULL DESCRIPTION - COPY FROM THE NEXT LINE
+
+[b]Dungeons II — First & Third Person[/b]
+
+This started as a way to explore Dungeons II through my character's eyes. It's grown a bit since then! You can now switch between first person and an over-the-shoulder camera, adjust the view to your liking, and hide individual armor pieces without unequipping them.
+
+Formerly Dungeons First Person. All features are free. This is still a preview, and your feedback helps me track down the rough edges.
+
+[b]Made for Minecraft Dungeons II.[/b]
+
+[b]What's included[/b]
+- First person with visible arms and weapons, using mouse or right-stick look.
+- A shoulder camera with adjustable distance, side, height, FOV and transition speed.
+- Smooth switching between custom views and normal gameplay.
+- Manual left/right shoulder switching with F2.
+- Camera-relative WASD and controller movement, with camera-facing attacks.
+- Optional sprint and a 180-degree quick turn, configurable in the Helper.
+- Hide/show helmet, chestplate, pants and boots separately, or all together.
+- Highlight an equipped armor piece in inventory and tap Y / Triangle to toggle just that piece.
+- Menu mouse control, with your chosen camera mode remembered when you close menus.
+- Local compatibility checks and support reports for troubleshooting.
+
+[b]Supported game builds[/b]
+Windows x64:
+- Steam build 25647713.
+- Xbox app / Minecraft Launcher / Microsoft Store: the measured GDK 1.1.1.0 build.
+
+Steam has been tested in earlier builds. Local Xbox testing has confirmed walking, first-person arm turning, individual armor toggles, menu mouse control and armor choices surviving camera changes. Wider levels, co-op and long sessions still need testing.
+
+Launch your game normally. For the protected Xbox/Minecraft Launcher/Store edition, start the game before checking compatibility or starting the Helper. There is no need to change protected-folder ownership.
+
+The executable build matters more than the launcher. Epic has not been verified. This does not support every edition or future game update automatically: unknown builds remain blocked until they have a tested compatibility update. Checks stay local and do not download replacement code.
+
+[b]Install and play[/b]
+1. Extract the entire Windows x64 ZIP. Keep all included folders together.
+2. Open Start Dungeons II Camera Mod.cmd.
+3. Launch the game normally, enter camp or a level, then click Start helper.
+4. Press F6 or hold L3 for two seconds to enter first person.
+5. Press F3 or triple-click L3 to switch between first person and shoulder view.
+
+Python is included. This is a standalone Helper: use a manual download and extraction. No game files or saves need replacing. Stop an older Helper with F10 before starting this version. Existing saved Helper preferences carry over from Dungeons First Person.
+
+[b]Main controls[/b]
+F6 / hold L3: Toggle the custom camera; starts in first person
+F3 / triple-click L3: First person / shoulder view while the custom camera is active
+F2: Swap shoulders in third person
+Mouse / right stick: Look
+WASD / left stick: Move
+Left-click: Attack; release and click again in midair for the heavy-jump attack route
+Shift + left-click: Native interaction and pickups
+Right-click: Bow / charge
+R / R3: Dodge; hold your movement direction first
+Single L3 / tap Shift: Start sprint, if enabled
+Double direction tap/flick: Start sprint, if enabled
+Double L3 / double Shift: Quick turn
+Y / Triangle in inventory: Toggle the highlighted equipped armor piece
+F4: Toggle mob silhouettes
+F7 / F8: Adjust FOV
+Page Down / Page Up: Adjust camera height
+F5: Restore normal view and armor visibility
+F10: Restore and quit the Helper
+
+Sprint starts off by default. Single/double L3 gestures briefly wait for another click. R3 remains an instant dodge. Feature switches and camera settings are in the Helper; stop it before changing startup settings.
+
+Armor choices last for the current Helper session and survive camera changes. They affect local appearance, with gear and stats kept intact. F5 resets visibility and suspends the inventory shortcut until F6 is used again. This does not include transmog.
+
+[b]Preview notes[/b]
+Automatic shoulder switching near walls is not included; use F2 manually. Walls can still clip the camera. Sprint smoothness, directional dodges while attacking, right-stick roll suppression, airborne mouse slams and spam-click movement fixes still need broader player confirmation.
+
+Earlier unexplained crashes and the reported food-pickup camera dropout are not claimed fixed. Terrain pop-in, all armor variants and every level still need testing. Split screen is unsupported. Movement and aiming changes affect gameplay, so this is not a purely visual mod. Guest co-op backward rolls and attacks were confirmed in earlier testing; wider host/guest and long-session testing remains open.
+
+If the view gets stuck, F5 restores it and F10 stops the Helper. If the game crashes, relaunch the game. Restarting just the Helper cannot fix every problem.
+
+[b]Reporting a problem[/b]
+Please include the mod version, store/game build, mouse or controller, solo or co-op role, and what happened just before the problem. Open logs and Save compatibility report are in the Helper. Review those files before sharing; nothing is uploaded automatically.
+
+Build checks, file hashes and a point-in-time Defender scan receipt accompany the release. If a download is flagged, report the exact file and detection. Keep antivirus protection enabled.
+
+[b]Optional support[/b]
+Thanks to everyone playing, sharing clips and sending reports. The mod stays free; if you'd like to support development:
+[url=https://www.patreon.com/cw/BuDeR/membership]BuDeR on Patreon[/url]
+
+Unofficial community project, not affiliated with Mojang, Microsoft or the game's developers. Mod source is MIT licensed; bundled runtime license notices are included.

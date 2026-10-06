@@ -1,0 +1,57 @@
+TO: support@nexusmods.com
+SUBJECT: Review request - Dungeons II — First & Third Person (formerly Dungeons First Person)
+
+Replace the two bracketed links before sending. This is a draft; no email
+has been sent. Link source that you have deliberately made accessible, not a
+local file path. The matching Source.zip contains release/BUILDING.md.
+
+Hi Nexus support,
+
+I'm the author of Dungeons II — First & Third Person, formerly Dungeons First Person,
+a free external camera/control helper for Minecraft Dungeons II.
+Could you review my quarantined upload and confirm
+which check caused the quarantine?
+
+Mod/file link: [PASTE NEXUS MOD AND FILE LINK]
+Matching source and build instructions: [PASTE ACCESSIBLE SOURCE LINK]
+
+The original upload was displayed as "DungeonsFirstPerson 0.9 Public Beta -
+Windows X64", but the package identifies itself as 0.2.0-public-beta.4.
+Original ZIP SHA256:
+0e8a1e3c67f3851fef5849dc8fdb680548c4d084a026c48a27d37144610af1da
+
+The VirusTotal report shown to me has 0/57 detections for that ZIP. Its bundled
+files view has 1/70 for runtime/Lib/site-packages/pip/_vendor/distlib/w32.exe:
+47872cc77f8e18cf642f868f23340a468e537e64521d9a3a416c8b84384d064b
+This file is byte-for-byte identical to the copy in the pinned official Python
+3.14.0 AMD64 archive. That is provenance evidence, not a vendor clearance.
+The original runtime also included ensurepip's nested pip wheel.
+
+The replacement is 0.3.0-preview.11. It retains the omission of unused pip and
+ensurepip installer components. The helper only uses the standard library.
+RUNTIME_OMISSIONS.json records all omitted paths and their upstream hashes.
+Retained Python/Tcl/Tk files are unmodified; no executable was renamed,
+obfuscated or patched. Python executables still need to be included to run
+the application. I understand this may still require manual review.
+
+The mod's own implementation is readable Python source. It reads and writes
+data in the fingerprint-validated game process for camera/control features;
+it does not inject a DLL or install files into the game directory. Experimental
+native-code patches are disabled. It makes no automatic downloads.
+
+I can provide the replacement ZIP, matching source, SHA256.txt, build recipe,
+runtime provenance and exact-file Defender scan receipt for your review.
+Please let me know whether you need the replacement uploaded before review
+and whether any additional information is needed. I am not claiming Nexus
+approval or asking users to disable their antivirus.
+
+Thanks,
+BuDeR
+
+ATTACH / LINK FOR REVIEW
+- Main: DungeonsII-FirstAndThirdPerson-0.3.0-preview.11-Windows-x64.zip
+- Source: DungeonsII-FirstAndThirdPerson-0.3.0-preview.11-Source.zip
+- DungeonsII-FirstAndThirdPerson-0.3.0-preview.11-SHA256.txt
+- DungeonsII-FirstAndThirdPerson-0.3.0-preview.11-Defender-scan.json
+- The Nexus quarantine screenshot and VirusTotal report link.
+- Build steps are in release/BUILDING.md in the matching source.

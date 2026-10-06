@@ -1,0 +1,9 @@
+{
+  "version": "3.14.0",
+  "platform": "win32",
+  "architecture": "amd64",
+  "url": "https://www.python.org/ftp/python/3.14.0/python-3.14.0-amd64.zip",
+  "manifest_url": "https://www.python.org/ftp/python/3.14.0/windows-3.14.0.json",
+  "sha256": "80387540694fe8e598afd5c6a18975081b0ccc6b57f752ed22216498f4205ce0",
+  "signer": "Python Software Foundation"
+}

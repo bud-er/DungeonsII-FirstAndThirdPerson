@@ -1,0 +1,31 @@
+Dungeons II — First & Third Person includes these unmodified runtime components:
+
+Python 3.14.0 (Python Software Foundation and contributors)
+https://www.python.org/
+License and bundled component notices: licenses/Python-LICENSE.txt
+The application runtime is derived from the official archive. Its archive URL
+and SHA256 are pinned in the source release's release/python-runtime.json
+and recorded in the application BUILD.json. All retained files keep their
+original bytes. Unused pip, pip metadata and ensurepip (including its bundled
+wheel) are omitted; exact omitted paths and upstream SHA256 hashes are in
+RUNTIME_OMISSIONS.json. The mod does not install packages. Python interpreter/core DLL
+signatures identify the Python Software Foundation, not the community mod.
+
+Tcl/Tk 8.6 (Tcl/Tk contributors)
+https://www.tcl.tk/
+Licenses: licenses/Tcl-license.txt and licenses/Tk-license.txt
+
+OpenSSL 3.0.18 (OpenSSL Project contributors)
+https://www.openssl.org/
+The Python hashing runtime includes OpenSSL. License: licenses/OpenSSL-LICENSE.txt
+Copyright 1998-2025 The OpenSSL Project Authors. All rights reserved.
+
+Other retained components supplied with the official Python distribution keep
+their original notices within runtime/ and the Python license text. These
+components remain under their own licenses; the mod's MIT license does not
+replace them. The helper requires no third-party pip installation.
+
+Public beta.2 and later include no PyInstaller bootloader or runtime hooks.
+
+No UE4SS, Microsoft diagnostic tools, game content, game executables,
+personal settings, logs or memory dumps are included in this release.

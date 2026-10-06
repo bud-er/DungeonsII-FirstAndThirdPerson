@@ -1,0 +1,11 @@
+# Local build outputs, caches and credentials
+.cache/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.log
+*.dmp
