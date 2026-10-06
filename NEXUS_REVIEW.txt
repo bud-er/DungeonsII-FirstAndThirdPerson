@@ -1,0 +1,34 @@
+ORIGINAL QUARANTINED UPLOAD - SOURCE REVIEW ONLY
+
+Version: 0.2.0-public-beta.4
+Original Nexus display label: DungeonsFirstPerson 0.9 Public Beta - Windows X64
+This is historical source, not the current recommended build.
+
+Original Windows ZIP SHA256:
+0e8a1e3c67f3851fef5849dc8fdb680548c4d084a026c48a27d37144610af1da
+Matching source ZIP SHA256:
+7411d6f0d3cf7404699bff5d94dff62963c0233d7a32d7c51bb28e48cf756ea1
+
+All 98 source-archive files are unchanged. Only this review note and .gitignore
+were added. All 43 shipped Python modules were checked against the matching
+Windows package's BUILD.json source hashes. The build instructions for this
+specific original version are in release/BUILDING.md and README.md; the official
+runtime URL and hash are in release/python-runtime.json.
+
+This original packaging included pip and ensurepip from the pinned official
+Python runtime. The user's VirusTotal screenshot reported 1/70 for pip's
+runtime/Lib/site-packages/pip/_vendor/distlib/w32.exe. Its reported SHA256 was:
+47872cc77f8e18cf642f868f23340a468e537e64521d9a3a416c8b84384d064b
+That file is not in this source repository: third-party runtime binaries are
+obtained from the exact official archive by the build script. No game binary,
+private diagnostic capture or user credentials are included here.
+
+The code is preserved for moderator review of the original upload. Newer
+packaging omits the unused installer components and has its own source revision.
+Do not substitute newer source as evidence of what was in this older package.
+No vendor false-positive ruling or Nexus approval is claimed.
+
+A historical rebuild may encounter current security detections. Keep protection
+enabled and do not bypass a failed build scan. New scan times/signatures and ZIP
+timestamps mean rebuilt archive hashes are not expected to equal the old ZIP.
+Do not execute the mod against an unsupported or updated game build.

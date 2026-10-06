@@ -1,0 +1,74 @@
+SUGGESTED TITLE
+Dungeons First Person - Minecraft Dungeons II (Public Beta)
+
+SHORT DESCRIPTION
+Explore Minecraft Dungeons II in first person, with mouse and controller support, visible arms and weapons, and camera-relative movement. Free public beta for Windows x64.
+
+FULL DESCRIPTION - COPY FROM THE NEXT LINE
+
+[b]Dungeons First Person[/b]
+
+I wanted to see Minecraft Dungeons II from my character's point of view, so I've been working on this mod. Look around with a mouse or controller, with your arms and weapons on screen.
+
+It's free. This is still a public beta, and your reports help.
+
+[b]This is for Minecraft Dungeons II, not the original Minecraft Dungeons.[/b]
+
+[b]What it does[/b]
+- First-person camera with mouse and right-stick look.
+- WASD and controller movement, melee, and native bow charging.
+- Movement-facing dodges, a controller quick turn, and adjustable FOV/eye height.
+- Mouse control in menus, with first person resuming when you close them.
+- Optional mob-silhouette toggle and a damage flash.
+- Local compatibility checks and a button to save a report for troubleshooting.
+
+[b]Supported versions and launchers[/b]
+Windows x64. The tested edition is Steam build 25647713.
+
+The helper attaches to the running game, so which launcher started it is not the deciding factor. The actual game executable must match the tested version. Another store may ship a different executable even when the games look identical.
+
+Minecraft Launcher/Xbox editions still need validation. No Epic edition has been verified. If your copy isn't found, use Choose game EXE or start the game and check again. A detected game with an unsupported executable will remain blocked until it has a tested mod update.
+
+Checks happen locally; they cannot automatically repair the mod for an unknown game update.
+
+[b]Installation[/b]
+1. Download the Windows x64 ZIP and extract the entire folder.
+2. Keep the included folders together. Python is bundled; no separate installation is needed.
+3. Open Start Dungeons First Person.cmd and click Start helper.
+4. Launch your game normally and enter camp or a level.
+5. Press F6, or hold L3 for two seconds, to enable first person.
+
+This is a standalone helper. Install it manually, not through Vortex or your game's Paks folder. No game files or saves need replacing. Stop an older helper with F10 before starting a new version.
+
+[b]Main controls[/b]
+F6 / hold L3: Toggle first person
+Mouse / right stick: Look
+WASD / left stick: Move
+Left-click: Attack
+Shift + left-click: Native interaction and pickups
+Right-click: Bow / charge
+R / R3: Dodge; hold your movement direction first
+Double-click L3: Quick turn
+F4: Toggle mob silhouettes
+F7 / F8: Adjust FOV
+Page Down / Page Up: Adjust eye height
+F5: Restore the normal view
+F10: Restore and quit the helper
+
+[b]Beta notes[/b]
+Menu mouse control and resuming first person have been confirmed in play. A spam-click walking fix is included, but player confirmation is still pending.
+
+Guest co-op backward rolls and attacks have been tested. Wider host/guest, keyboard dodge, bow, and long-session testing is still needed. Split screen is unsupported. Movement and aiming changes affect gameplay; this isn't a purely visual mod.
+
+Terrain gaps/pop-in and occasional visible body parts remain. Earlier crashes and a food-pickup-related first-person dropout remain unresolved. F5 restores the view; F10 stops the helper.
+
+[b]Reporting a problem[/b]
+Include your mod version, store/launcher, controls, solo or co-op role, and what you did before the issue. Use Open logs and Save compatibility report in the launcher. Review files before sharing them. Nothing is uploaded automatically; don't upload game executables or account details.
+
+Keep antivirus protection enabled. If a download is flagged, stop and report it rather than adding an exclusion. Build checks and scan details are included with the release.
+
+[b]Optional support[/b]
+All features are free. Optional support:
+[url=https://www.patreon.com/cw/BuDeR/membership]BuDeR on Patreon[/url]
+
+Unofficial community project, not affiliated with Mojang, Microsoft, or the game's developers. Mod source is MIT licensed; runtime notices are included.

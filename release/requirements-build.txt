@@ -1,0 +1,4 @@
+# No pip packages are required for the supported portable build.
+# Use 64-bit Windows, Python 3.14, and enabled Microsoft Defender.
+# The bundled official Python 3.14.0/Tk archive is pinned in python-runtime.json.
+# See BUILDING.md for the download, verification and scan requirements.

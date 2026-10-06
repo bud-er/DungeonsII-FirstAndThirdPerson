@@ -1,0 +1,52 @@
+AUTHOR UPLOAD NOTES - NOT THE NEXUS DESCRIPTION
+
+These are preparation notes, not a statement that a Nexus page has been
+published. This file contains no private credentials or machine paths and may
+be included in the matching source archive.
+
+PAGE
+- Use the suggested title, short description and full-description block from
+  NEXUS_DESCRIPTION.txt. The full description uses simple BBCode. Preview it in
+  Nexus before submitting; remove the file's copy instructions from the page.
+- Select the correct Minecraft Dungeons II game/category if it is available.
+  Do not list this under the original Minecraft Dungeons as though compatible.
+  If the correct game is absent, resolve the category before publishing.
+- Keep the public-beta label and current compatibility limits visible.
+- Keep Patreon support optional; the Nexus download should remain free.
+
+FILES
+- Main download: DungeonsFirstPerson-0.2.0-public-beta.4-Windows-x64.zip,
+  only after that exact release has completed its build and verification.
+  Suggested display name: Dungeons First Person - Public Beta 4 (Windows x64).
+- Optional source download: matching public-beta.4-Source.zip.
+- Include the matching SHA256 checksums and Defender scan receipt as supporting
+  release files. Do not reuse another version's receipt or claim permanent
+  antivirus clearance. Public beta.1 remains retired; its detection is unresolved.
+- Use manual-install instructions. This external helper is not a PAK installer
+  or a Vortex deployment package. Do not upload a runtime-only folder.
+- Use the final release version shown in BUILD.json if the version changes
+  before upload. Do not upload development caches, test captures, personal logs,
+  game binaries/assets, or the separate terrain experiment.
+- The mod source uses MIT; preserve its license and bundled runtime notices.
+
+IMAGES / VIDEO TO ADD
+- Cover: an actual first-person gameplay screenshot with arms and weapon visible.
+- Gameplay: another location, plus a short movement/combat clip if available.
+- Menus: one real screenshot showing a usable menu cursor.
+- Launcher: a screenshot showing controls/settings without personal file paths.
+These are suggested captures, not existing or verified image assets. Do not
+label concept art as gameplay or imply untested store editions were demonstrated.
+
+LAST EDIT BEFORE PUBLISHING
+- Preview the description, links and install steps against the finished ZIP.
+- Keep the spam-click confirmation marked pending unless a player has tested
+  the finished build successfully. Update that sentence when confirmed.
+- Only Steam build 25647713 has been validated for play. A tester having another
+  store edition is not a compatibility result. Ask them to use Save compatibility
+  report, review it, and send the report voluntarily; do not request their EXE.
+- A compatible hash can establish the same binary, but do not claim a complete
+  cross-store play test until that tester has actually played it.
+- Do not advertise a universal auto-updater. Compatibility checks do not adapt
+  unknown executable layouts or download replacement code.
+- If you add a bug-report template, request mod version, game/store, input type,
+  solo/host/guest role, reproduction steps, and relevant reviewed log/report.

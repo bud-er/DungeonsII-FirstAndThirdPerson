@@ -1,0 +1,28 @@
+Dungeons First Person includes these unmodified runtime components:
+
+Python 3.14.0 (Python Software Foundation and contributors)
+https://www.python.org/
+License and bundled component notices: licenses/Python-LICENSE.txt
+The original official runtime is included under runtime/. Its archive URL
+and SHA256 are pinned in the source release's release/python-runtime.json
+and recorded in the application BUILD.json. Python interpreter/core DLL
+signatures identify the Python Software Foundation, not the community mod.
+
+Tcl/Tk 8.6 (Tcl/Tk contributors)
+https://www.tcl.tk/
+Licenses: licenses/Tcl-license.txt and licenses/Tk-license.txt
+
+OpenSSL 3.0.18 (OpenSSL Project contributors)
+https://www.openssl.org/
+The Python hashing runtime includes OpenSSL. License: licenses/OpenSSL-LICENSE.txt
+Copyright 1998-2025 The OpenSSL Project Authors. All rights reserved.
+
+Other components supplied with the official Python distribution retain their
+original notices within runtime/. This includes pip and its bundled packages;
+their licenses are under runtime/Lib/site-packages/pip-25.2.dist-info/licenses/.
+The helper and supported build require no third-party pip installation.
+
+Public beta.2 includes no PyInstaller bootloader or runtime hooks.
+
+No UE4SS, Microsoft diagnostic tools, game content, game executables,
+personal settings, logs or memory dumps are included in this release.
